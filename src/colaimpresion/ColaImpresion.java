@@ -8,6 +8,7 @@ public class ColaImpresion {
         // TODO code application logic here
         ColaTareas cola = new ColaTareas();
         
+        System.out.println("-------------------------------------");
         cola.agregarTarea(new Tareas(" Hacer las compras"));
         cola.agregarTarea(new Tareas("Estudiar para el examen"));
         cola.agregarTarea(new Tareas("Llamar a la movilidad"));
